@@ -43,7 +43,7 @@
     "components/**/*.{js,jsx,ts,tsx}": "next lint --fix",
     "lib/**/*.{js,jsx,ts,tsx}": "next lint --fix",
     "*.{js,jsx,ts,tsx}": "eslint --fix",
-    "{ts,tsx,js,jsx,json,yaml,yml,md}": "pnpm prettier:write"
+    "*.{ts,tsx,js,jsx,json,yaml,yml,md}": "pnpm prettier:write"
   },
   "engines": {
     "node": "20.12.2",
