@@ -45,15 +45,6 @@
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
   },
-  "lint-staged": {
-    "src/**/*.{js,jsx,ts,tsx}": "next lint --fix",
-    "app/**/*.{js,jsx,ts,tsx}": "next lint --fix",
-    "pages/**/*.{js,jsx,ts,tsx}": "next lint --fix",
-    "components/**/*.{js,jsx,ts,tsx}": "next lint --fix",
-    "lib/**/*.{js,jsx,ts,tsx}": "next lint --fix",
-    "*.{js,jsx,ts,tsx}": "eslint --fix",
-    "*.{ts,tsx,js,jsx,json,yaml,yml,md}": "pnpm prettier:write"
-  },
   "release": {
     "branches": [
       {
